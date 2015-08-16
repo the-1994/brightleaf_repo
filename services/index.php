@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to BrightLeaf</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  
+	  
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/popup_css.css">
+  
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ 	<script src="js/magic.js"></script>
+	
+	<script src="http://use.typekit.net/ami6vqg.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+
+    <!-- Custom CSS -->
+  	  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<script type="text/javascript">
+			window.scrollTo = function( x,y ) 
+			{
+				return true;
+			}	
+		</script>
+        
+        
+	
+</head>
+
+<body id="page-top">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9B5NJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9B5NJ');</script>
+<!-- End Google Tag Manager -->
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://brightleaf.io/">
+				 <img src="img/brightleaf_logo.png" class="img-responsive on_desktop" alt="brightleaf" title="brightleaf">
+				 <img src="img/brightleaf_logo_onmenu.png" class="img-responsive on_menu" alt="brightleaf" title="brightleaf">
+				 
+				</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+				   <li class="dropdown">
+                      <a class="page-scroll dropdown-toggle" href="http://brightleaf.io/services/">Services <b class="caret"></b>
+					  
+					  <ul class="dropdown-menu" id="menu1">
+    <li><a href="#retargeting-part" class="page-scroll">Get the ones that get away</a></li>
+    <li><a href="#predictive-modeling" class="page-scroll">Predict and Attract Your Next Hires</a></li>
+   <li><a href="#data-ransformation" class="page-scroll">Make Old Applicants New</a></li>
+   <li><a href="#job-search-marketing" class="page-scroll">Job Search Marketing</a></li>
+   <li><a href="#applicant-engagement" class="page-scroll">Applicant Engagement</a></li>
+   <li><a href="#lets-talk" class="page-scroll">Let’s Talk</a></li>
+  </ul>
+					  
+					  </a>
+					  
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://brightleaf.io/about/index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://brightleaf.io/blog">Blog</a>
+                    </li>
+                   
+					<li>
+                        <a class="page-scroll" href="http://try.brightleaf.io/appsyt/"> 
+						<span class="sign_uptext">Sign Up</span>
+						<img src="img/sign-up.png" class="img-responsive sign-up" alt="Sign Up" title="Sign Up"></a>
+                    </li>
+					
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+	<div class="container">
+	<div class="row">
+	
+	 <div class="col-md-12">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>End To End Recruitment Analytics</h1>
+                <p>BrightLeaf is excited to announce Appsyt, cutting edge analytics that allows recruiters to get the full view of applicant activity on your site, from start to finish. Appsyt sets up in minutes and starts pulling back the covers on real applicant data, allowing you to make better decisions, save time, and recruit incredible talent.</p>
+				
+				<!--  <img src="img/laptop-img.png" class="img-responsive" alt="Laptop"> -->
+				
+				
+              
+            </div>
+        </div>
+		
+		<img src="img/laptop-img.png" class="img-responsive header-laptop" alt="This is a statement about our benefits" title="This is a statement about our benefits">
+			</div>
+				</div>
+			
+		</div>
+		
+		
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>End-to-End Recruitment Analytics</h2>
+                    <a href="http://try.brightleaf.io/appsyt/">Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+<section id ="retargeting-part">
+ <div class="container">
+            <div class="row">
+			 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 retargeting_right_part">
+				 <img src="img/retargeting1.png" class="img-responsive" alt="Retargeting" title="Retargeting">
+				
+				
+				</div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 retargeting_left_part">
+				
+				<h1>Get the Ones That Get Away</h1>
+					<p>Your career website may lose as much as 90% or more of your potential applicants. BrightLeaf can get them back for you. We track who visits your site and give your ads a second chance with the ones that get away.</p>
+				
+				</div>
+               
+            </div>
+        </div>
+</section>	
+	
+	
+	
+	<section id ="predictive-modeling">
+ <div class="container">
+            <div class="row">
+			
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 predictive_modeling_left_part">
+				 <img src="img/predictive-modeling1.png" class="img-responsive" alt="Predictive Modeling" title="Predictive Modeling">
+				
+				
+				</div>
+			
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 predictive_modeling_right_part">
+				
+				<h1>Predict and Attract Your Next Hires</h1>
+			<p>BrightLeaf transforms your ATS data into a data-driven roadmap to your next hires. We use past performance to predict who should see your ads today. Stop waiting for qualified people to find you. BrightLeaf advertises to qualified candidates before they even begin their job search.</p>
+				</div>
+                
+            </div>
+        </div>
+</section>	
+	
+	
+	
+	<section id ="data-ransformation">
+ <div class="container">
+            <div class="row">
+			 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 data_ransformation_right_part">
+				 <img src="img/data_ransformation.png" class="img-responsive" alt="ATS Data Transformation" title="ATS Data Transformation">
+				
+				
+				</div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 data_ransformation_left_part">
+				
+				<h1>Make Old Applicants New</h1>
+<p>Stop relying on slow searches and stale emails to connect with your Talent Network or inactive applicants in your ATS.
+Think beyond the inbox. BrightLeaf delivers ads to your Talent Network to the places they spend most of their time: social networks and digital media.</p>
+				
+				</div>
+               
+            </div>
+        </div>
+</section>	
+	
+	
+	
+	
+	
+		<section id ="job-search-marketing">
+ <div class="container">
+            <div class="row">
+			
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 job_search_left_part">
+				 <img src="img/job_search1.png" class="img-responsive" alt="Job Search Marketing" title="Job Search Marketing">
+				
+				
+				</div>
+			
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 job_search_right_part">
+				
+<h1>Job Search 
+Marketing</h1>
+<p>Optimize, and automate your Job Board Strategy. BrightLeaf will reduce your Job Board 
+spend while increasing the reach and efficiency of you job search marketing budget.</p>
+				</div>
+                
+            </div>
+        </div>
+</section>	
+	
+	
+	
+	
+	
+		
+	<section id ="applicant-engagement">
+ <div class="container">
+            <div class="row">
+			  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 applicant_engagement_right_part">
+				 <img src="img/applicant-engagement.png" class="img-responsive" alt="Applicant Engagement" title="Applicant Engagement">
+				
+				
+				</div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 applicant_engagement_left_part">
+				
+				<h1>Applicant 
+Engagement</h1>
+<p>BrightLeaf ensures that qualified applicants get interviewed while unqualified applicants get properly tracked and stored away for another day. Recruiters can focus on recruiting and never look at an unqualified applicant again.</p>
+				
+				</div>
+              
+            </div>
+        </div>
+</section>	
+	
+	
+	
+	
+	
+	
+		<section id ="lets-talk">
+ <div class="container">
+            <div class="row">
+			
+			 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<aside>
+			<h1>Let’s Talk</h1>
+<p>Our data-driven, marketing-focused approach to recruitment will help you hire faster,
+ smarter, and more effectively. Let us know how we can help.</p>	
+			</aside>
+			
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 lets_talk_leftpart">
+				 <img src="img/lets-talk.png" class="img-responsive" alt="BrightLeaf" title="BrightLeaf">
+				
+				
+				</div>
+				
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 lets_talk_rightpart">
+				
+			<div class="lets_talk_form_part">
+			
+			<?php /* if($data.message!='')
+			{ */
+			?>
+			<?php/*  }
+				if($success_msg == '')
+				{ */
+			?>
+			
+				<form method="post" id="lets_talk_form" action="process.php">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group" id="email-group">
+				<label>Work Email</label>
+				<input name="email" type="text"  value="<?php echo $email;?>" size="" placeholder="" class="lets_input email_input form-control" id="email">
+				<span class="error"><?php echo $emailErr;?></span>
+				</div>
+				
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 lets_input_1 form-group" id="firstname-group">
+				<label>First Name</label>
+				<input name="firstname" type="text"  value="<?php echo $fname;?>" size="" placeholder="" class="lets_input form-control" id="firstname" >
+				<span class="error"><?php echo $fnameErr;?></span>
+				</div>
+				
+				
+				
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 lets_input_2 form-group" id="lastname-group">
+				<label>Last Name</label>
+				<input name="lastname" type="text"  value="<?php echo $lname;?>" size="" placeholder="" class="lets_input form-control" id="lastname" >
+				<span class="error"><?php echo $lnameErr;?></span>
+				</div>
+				
+					
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group" id="message-group">
+				<label>Message</label>
+				<textarea name="msg" class="lets_input textarea_text form-control " placeholder="" id="msg" ><?php echo $msg;?></textarea>
+				<span class="error"><?php echo $msgErr;?></span>
+				</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						
+					<input type="submit" value="Send" class="submit_btn" name="submit_button">
+						
+				</div>
+				
+				</form>
+				<div id="dialog" title="Basic dialog" style="display:none;">
+  <p>Thank You for contacting Us.
+  We will get back to you soon.</p>
+</div>
+				<?php/*  } */ ?>
+				</div>
+				</div>
+				            </div>
+				
+            </div>
+        </div>
+</section>	
+	
+	<!-- Footer Start Here -->
+
+	<footer class="footer-distributed">
+	<div class="container">
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+				</p><aside id="nav_menu-2" class="widget widget_nav_menu">
+				<h3 class="widget-title">BrightLeaf</h3><div class="menu-main-menu-container">
+				<ul id="menu-main-menu-1" class="menu">
+				<li>
+				<a href="http://brightleaf.io/about/index.html">About</a></li>
+<li>
+<a href="http://brightleaf.io/blog">Blog</a></li>
+<li><a href="http://brightleaf.io/about/contact.html">Contact</a></li>
+</ul></div></aside>					
+				<p></p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><a href="https://www.google.com/maps/place/502+Rigsbee+Ave,+Durham,+NC+27701/@36.0006286,-78.8989433,18z/data=!4m2!3m1!1s0x89ace47169d8290f:0xd4b94eeff4664fd6" target="_blank"><span>502 Rigsbee Ave</span>Durham, NC</a></p>
+				</div>
+							<div>
+					<i class="fa fa-phone"></i>
+					<p>(919) 520-3378</p>
+				</div>
+							<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:info@brightleaf.io">info@brightleaf.io</a></p>
+				</div>
+						</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+									<span>About BrightLeaf</span>
+													We are a Recruitment Marketing agency dedicated to transforming talent acquisition. We are headquartered in Durham, NC.								</p>
+
+				<div class="footer-icons">
+										<a href="https://www.facebook.com/brightleaf.io" target="_blank"><i class="fa fa-facebook"></i></a>
+															<a href="https://twitter.com/brightleaf_io" target="_blank"><i class="fa fa-twitter"></i></a>
+															<a href="https://www.linkedin.com/company/brightleaf-io" target="_blank"><i class="fa fa-linkedin"></i></a>
+									</div>
+			</div>
+			</div>
+	</footer>
+	
+	<footer class="fineprint">	
+<p class="cr">© BrightLeaf 2015</p>
+		
+		</footer>
+	
+	
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script> -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+	
+	
+
+
+
+</body>
+
+</html>
