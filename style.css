@@ -1774,6 +1774,7 @@ a.sitename, a:visited.sitename {
 				top: 47%;
 				left: 50%;
 				transform: translate(-50%,-50%);
+			  z-index: 1000;
 			}
 
 	/* Dark */
