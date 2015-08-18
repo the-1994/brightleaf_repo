@@ -12,6 +12,7 @@
 		<meta name="description" content="" />
        <meta name="keywords" content="" />
 
+
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 
 		
@@ -73,7 +74,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="http://brightleaf.io/">
+                <a class="navbar-brand page-scroll" href="../index.html">
 				 <img src="images/brightleaf_logo.png" class="img-responsive on_desktop" alt="brightleaf" title="brightleaf">
 				 <img src="images/brightleaf_logo_onmenu.png" class="img-responsive on_menu" alt="brightleaf" title="brightleaf">
 				 
@@ -84,10 +85,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                  <li>
-                    <a class="page-scroll" href="http://brightleaf.io/services/">Services</a>
+                    <a class="page-scroll" href="../services/index.html">Services</a>
 				</li>
                 <li>
-                    <a class="page-scroll" href="http://brightleaf.io/about/index.html">About</a>
+                    <a class="page-scroll" href="index.html">About</a>
                 </li>
 				<!-- 	<li><a href="http://brightleaf.io/about/contact.html">Contact</a></li> -->
                 <li>
@@ -160,273 +161,137 @@
 
 
 
-						<p id="contact">Give us a call at 919.428.7442. Or fill out the form below and we'll get in touch with you.</p>
+						<p id="contact">Thanks you for checking us out! We are excited to help you optimize your sourcing pipleline by introducing you to most advanced applicant tracking software and services. Fill out the form below and we can start on a free diagnostic. Or if you would rather... give us a call at 919.428.7442.</p>
 
-						 <p id="success" style="display:none"><B>Thank You, We will be in touch....</B></p>
+						 <p id="success" style="display:none"><B>Thank again. We will be in touch....</B></p>
 
 					       <p id="error" style="display:none">Submission Failed Please try Later....</p>
 
 
 
-						 <form  id="brightleafForm" action="/">
-
-																		<div class="row">
-
-
-
-																			<div class="6u">
-
-
-
-																				<input class="text" type="text" name="entry.636068633" id="name" value="" placeholder="NAME" />
-
-																			</div>
-
-																			<div class="6u">
-
-																				<input class="text" type="text" name="entry.1509860504" id="email" value="" placeholder="EMAIL" />
-
-																			</div>
-
-																			<div class="6u">
-
-																			 <input class="text" type="text" name="entry.316055378" id="email" value="" placeholder="JOB TITLE" />
-
-																			</div>
-
-																			<div class="6u">
-
-																			<input class="text" type="text" name="entry.243784070" id="email" value="" placeholder="COMPANY NAME" />
-
-																			</div>
-
-																		</div>
-
-																		<div class="row">
-
-																			<div class="12u">
-
-																				<textarea name="entry.789765158" id="message" placeholder="Enter your message"></textarea>
-
-																			</div>
-
-																		</div>
-
-																		<div class="row">
-
-																			<div class="12u">
-
-																				<ul class="actions">
-
-																					<li><input id="submitButton" type="submit" value="Submit" /></li>
-
-																					<li><input type="reset" class="style3" value="Clear Form" /></li>
-
-																				</ul>
-
-																			</div>
-
-																		</div>
-
-
-
-											 </form>
+						 <form  id="input-form" action="" method="POST" target="no-target">
+								<div class="row">
+									<div class="6u">
+										<input class="text" type="text" name="first-name" id="first-name" value="" placeholder="FIRST NAME" required />
+									</div>																			
+									<div class="6u">
+										<input class="text" type="text" name="last-name" id="last-name" value="" placeholder="LAST NAME" required />
+									</div>
+									<div class="6u">
+										<input class="text" type="text" name="phone-number" id="phone-number" value="" placeholder="PHONE NUMBER" required />
+									</div>
+									<div class="6u">
+										<input class="text" type="text" name="email" id="email" value="" placeholder="EMAIL" required />
+									</div>
+									<div class="6u">
+										<input class="text" type="text" name="company-name" id="company-name" value="" placeholder="COMPANY NAME" />
+									</div>				
+									<div class="6u">
+									 <input class="text" type="text" name="job-title" id="job-title" value="" placeholder="JOB TITLE" />
+									</div>
+									<div class="6u">
+									<select class="dropdown" name="biggest-challenge" id="biggest-challenge">
+											<option value="">What is your biggest recruiting challenge?</option>
+											<option value="Attracting qualified talent">Attracting qualified talent</option>
+											<option value="Lack of useful recruitment data">Lack of useful recruitment data</option>
+											<option value="Spending too much time reporting">Spending too much time reporting</option>
+											<option value="Building a recruitment marketing team">Building a recruitment marketing team</option>
+											<option value="Spending too much time sourcing">Spending too much time sourcing</option>
+											<option value="Poor Career Website performance">Poor Career Website performance</option>
+											<option value="Other">Other</option>
+									</select>
+									</div>
+									<div class="6u">
+										<input type="hidden" name="checkbox" value="0">
+										<input type="checkbox" id="checkbox" name="checkbox" value="1"> Would You like to sign up for our newsletter?
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+<!--											<li><button id="form-submit" type="submit">SUBMIT</button></li>-->
+											<li><input id="form-submit" type="submit"/></li>
+											<li><input type="reset" class="style3" value="Clear Form" /></li>
+										</ul>
+									</div>
+								</div>
+						</form>
+					 <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
 
 </div>
 
 
 
 <footer class="footer-distributed">
-
-
-
 			<div class="footer-left">
-
-
-
 				<h3>BrightLeaf</h3>
-
-
-
 				<p class="footer-links">
-
 					<a href="../index.html">Home</a>
 
 					·
-
 					<a href="index.html">About</a>
 
 					·
-
 					<a href="contact.html">Contact</a>
-
 				</p>
-
 			</div>
-
-
-
+	
 			<div class="footer-center">
-
-
-
 				<div>
-
 					<a href="https://www.google.com/maps/place/502+Rigsbee+Ave,+Durham,+NC+27701/@36.0006286,-78.8989433,18z/data=!4m2!3m1!1s0x89ace47169d8290f:0xd4b94eeff4664fd6" target="_blank"><i class="fa fa-map-marker"></i></a>
-
 					<p><span>502 Rigsbee Ave</span> Durham, NC</p>
-
 				</div>
-
-
-
 				<div>
-
 					<i class="fa fa-phone"></i>
-
 					<p>(919) 428-7442</p>
-
 				</div>
-
-
-
 				<div>
-
 					<i class="fa fa-envelope"></i>
-
 					<p><a href="mailto:info@brightleaf.io">info@brightleaf.io</a></p>
-
 				</div>
-
-
-
 			</div>
-
-
 
 			<div class="footer-right">
-
-
-
 				<p class="footer-company-about">
-
 					<span>About BrightLeaf</span>
-
 					We're a Recruitment Marketing agency dedicated to transforming talent acquisition. We are headquartered in Durham, NC.
-
 				</p>
-
-
-
 				<div class="footer-icons">
-
-
-
 					<a href="#"><i class="fa fa-facebook"></i></a>
-
 					<a href="#"><i class="fa fa-twitter"></i></a>
-
 					<a href="https://www.linkedin.com/company/brightleaf-io" target="_blank"><i class="fa fa-linkedin"></i></a>
-
-
-
 				</div>
-
 			</div>
-
 	</footer>
 
 	<footer class="fineprint">
-
 			<p class="cr">© BrightLeaf 2015</p>
-
 		</div>
-
 		</footer>
 
 	 <!-- Bootstrap JavaScript start here -->
     <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/custom.js"></script>	
 
 	  <script src="js/init2.js"></script>
-	 <script type="text/javascript">
 
-		//callback handler for form submit
-
-	$("#brightleafForm").submit(function(e)
-
-	{
-
-
-
-	    var postData = $(this).serializeArray();
-
-	    var formURL = "https://docs.google.com/a/brightleaf.io/forms/d/1eVONnY4T7R-fXu3tPle0NdT-SxZq_ouWcV4PMbkJSS8/formResponse";
-
-	    $.ajax(
-
-	    {
-
-	        url : formURL,
-
-	        type: "POST",
-
-	        data : postData,
-
-	        dataType: 'jsonp',
-
-	        success:function(data, textStatus, jqXHR)
-
-	        {
-
-	            $('#success').show().delay(5000).fadeOut();
-
-
-
-	        },
-
-	        error: function(jqXHR, textStatus, errorThrown)
-
-	        {
-
-	               $('#brightleafForm')[0].reset();
-
-	              $('#success').show().delay(5000).fadeOut();
-
-	        }
-
-	    });
-
-	     e.preventDefault(); //STOP default action
-
-	    //e.unbind(); //unbind. to stop multiple form submit.
-
-	});
-
-
-
-   </script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61151649-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-		
+    <script src="js/form.js"></script>
 	
-		
-	</body>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-61151649-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 
 
-
-
-
+</body>
 </html>
