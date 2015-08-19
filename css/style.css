@@ -1790,7 +1790,7 @@ a.sitename, a:visited.sitename {
 
 			.main > .content h3
 			{
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 			
@@ -1858,7 +1858,7 @@ a.sitename, a:visited.sitename {
 			#second header h2
 			{
 				letter-spacing: 0.10em;
-			    font-size: 2em;
+			    font-size: 1.75em;
 			    display: block;
 			    text-align: center;
 			    padding: 0.50em 2em 0em 2em;
