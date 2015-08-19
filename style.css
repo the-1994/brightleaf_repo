@@ -139,7 +139,7 @@
 	}
 
 .paragraph-3 {
-	font-size: .75em;
+	font-size: .8em;
 	line-height:1.2;
 }
 
@@ -813,6 +813,7 @@ hover					{
 		background-size:  cover;
 		background-position: center center;
 		background-repeat:   no-repeat;
+/*		min-height: 700px;*/
 	}
 	
 		#header header
@@ -823,6 +824,7 @@ hover					{
 		
 			#header header h1
 			{
+/*				padding-top: 1em;*/
 				font-weight: 800;
 				font-size: 3em;
 				letter-spacing: 10px;
