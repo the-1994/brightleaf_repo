@@ -806,7 +806,7 @@
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
-		background-image: url('../images/r_office.jpg');
+		background-image: url('../images/man-on-world.jpg');
 		background-size:  cover;
 		background-position: center center;
 		background-repeat:   no-repeat;
@@ -855,7 +855,7 @@
 		#header footer
 		{
 			position: absolute;
-			
+			visibility:hidden;
 			bottom: 9em;
 			margin: 0;
 			width: 100%;
@@ -1791,6 +1791,7 @@ a.sitename, a:visited.sitename {
 			.main > .content h3
 			{
 				font-size: 1.75em;
+				height: 1.2em;
 			}
 
 			
@@ -1882,5 +1883,9 @@ a.sitename, a:visited.sitename {
 				-webkit-margin-start: 0px;
 				-webkit-margin-end: 0px;
 			}
+
+.container {
+  width: 95%;
+}
 			
 

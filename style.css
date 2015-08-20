@@ -196,6 +196,7 @@
 				margin-bottom: 0;
 			}
 
+
 	/* Image */
 
 		.image
@@ -809,7 +810,7 @@ hover					{
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
-		background-image: url('../images/r_office.jpg');
+		background-image: url('../images/man-on-world.jpg');
 		background-size:  cover;
 		background-position: center center;
 		background-repeat:   no-repeat;
