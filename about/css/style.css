@@ -616,6 +616,15 @@ margin-bottom: 1em;
 		text-transform: uppercase;
 	}
 
+
+		#form-submit {
+			background-color: orangered;
+		}
+
+		#form-submit:hover {
+			background-color: #cc3700;
+		}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
