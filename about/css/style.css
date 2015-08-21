@@ -162,7 +162,7 @@ body.is-loading * {
 	}
 
 .container-fluid {
-	margin: 15px 0;
+	margin: 15px auto;
 }
 
 .map-container {
