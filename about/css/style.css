@@ -22,6 +22,68 @@ body.is-loading * {
 		line-height: 1.75em;
 	}
 
+	.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+/*	opacity:.5;*/
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	/*pointer-events: none;*/
+	display: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/*.modalDialog a {
+	text-decoration: none;
+}*/
+
+.modalDialog > div {
+	width: 600px;
+	text-align: center;
+	position: relative;
+	margin: 15% auto;
+	padding: 5px 20px 70px 20px;
+/*	border-radius: 10px;*/
+	background: #fff;
+	z-index: 99999999999;
+	/*opacity: 1;*/
+	background-color: white;
+}
+
+.modalPTag {
+	margin: 0 !important;
+}
+
+.modalThanks {
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+}
+
+.modalLink {
+	text-decoration: none !important;
+	color: #35b88f !important;
+	padding: 10px;
+	border: none;
+}
+
+.modalLink:hover {
+	color: #2a9070 !important;
+}
+
+
+
 .started-bg-wrap {
 	background: url(images/office-2.jpg) no-repeat center center fixed;
 	background-size: cover;

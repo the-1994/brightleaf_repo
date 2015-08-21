@@ -1,7 +1,10 @@
 
 (function($) {
+			$('.modalDialog').hide();
 
 			$('#input-form').one('submit',function(e){
+					e.preventDefault();
+				  	e.stopPropagation()
 					var firstName = encodeURIComponent($('#first-name').val());
 					var firstNameID = "entry.438718222";
 					var lastName = encodeURIComponent($('#last-name').val());
@@ -35,8 +38,8 @@
 					$(this)[0].action=submitURL;
 					console.log("got here");
 					$(this).submit();
-					e.preventDefault();
-				  e.stopPropagation()
+					$('.modalDialog').show();
+					
 	// +        $('#name').addClass('active').val('Thank You!');
 			});
 	
