@@ -7,7 +7,9 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+.map-container {
+	text-align: center;
+}
 	body
 	{
 		background-color:		#fff;
@@ -135,6 +137,10 @@
 	{
 		margin-bottom: 1em;
 	}
+
+.container-fluid {
+	margin: 15px 0;
+}
 
 	header
 	{
@@ -483,6 +489,13 @@
 				}
 
 	/* Button */
+
+.get-started-button {
+	background-color: orangered;
+  border-radius: .3em;
+	text-transform: uppercase;
+	font-size: .8em;
+}
 		
 		input[type="button"],
 		input[type="submit"],

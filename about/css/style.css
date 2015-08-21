@@ -22,6 +22,20 @@ body.is-loading * {
 		line-height: 1.75em;
 	}
 
+.started-bg-wrap {
+	background: url(images/office-2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+}
+
+.started-bg-wrap .box {
+	background:none;
+	color: white;
+}
+
+.white-text {
+	color:white;
+}
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -84,6 +98,14 @@ body.is-loading * {
 		position: relative;
 		top: -0.5em;
 	}
+
+.container-fluid {
+	margin: 15px 0;
+}
+
+.map-container {
+	text-align: center;
+}
 
 	hr {
 		border: 0;
@@ -181,11 +203,13 @@ margin-bottom: 1em;
 	input[type="email"],
 	select,
 	textarea {
+/*
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
+*/
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-o-transition: background-color 0.2s ease-in-out;
@@ -197,11 +221,12 @@ margin-bottom: 1em;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		color: inherit;
 		display: block;
-		outline: 0;
+		outline: 0;*
 		padding: 0.75em;
 		text-decoration: none;
 		width: 100%;
 		opacity: 1;
+		height: 60px;
 	}
 
 		input[type="text"]:focus,
@@ -222,6 +247,7 @@ margin-bottom: 1em;
 
 	textarea {
 		padding: 0.5em 0.75em;
+		height: 200px;
 	}
 
 	::-webkit-input-placeholder {
@@ -250,7 +276,11 @@ margin-bottom: 1em;
 		color: rgba(110, 110, 110, 0.5) !important;
 	}
 
-/* Image */
+	.dropdown {
+    color: #A79FA3;
+	}
+
+/* Image 
 
 	.image {
 		border: 0;
@@ -487,6 +517,12 @@ margin-bottom: 1em;
 
 /* Button */
 
+.get-started-button {
+	background-color: orangered;
+  border-radius: .3em;
+	text-transform: uppercase;
+	font-size: .8em;
+}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -876,6 +912,9 @@ margin-bottom: 1em;
 						color: white;
 					}
 
+footer {
+	background-color: white;
+}
 /* Main */
 
 	#main {
@@ -912,7 +951,6 @@ margin-bottom: 1em;
 /*********************************************************************************/
 /* Scrolled Navigation Bar                                                       */
 /*********************************************************************************/
-
 
 .fixed-nav-bar {
   position: fixed;
