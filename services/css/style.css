@@ -1983,6 +1983,12 @@ padding: 5px 0px 12px;
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
+	
+
+	.get-started-button {
+		background-color:white;
+	}
+
 
 }
 
